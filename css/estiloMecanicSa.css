@@ -14,6 +14,7 @@
     width: 100%;
   }
 }
+
 .material-icons{
     font-family: 'Material Icons';
     font-weight: normal;
@@ -75,7 +76,7 @@
 
 
 #grillaIndex{
-    height: 2000px;
+    height: 2300px;
     display: grid;
     grid-template-rows: 13% 84% 3%;
     grid-template-columns: 100%;
