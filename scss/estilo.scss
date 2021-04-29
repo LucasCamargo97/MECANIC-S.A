@@ -1,0 +1,417 @@
+.footerMec{
+    grid-area: footer;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    &__text{
+    Color: rgb(0, 79, 248);
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    text-align: center;
+    }
+    &__link:hover{
+        Color: rgb(70, 194, 243);
+    }
+    &__link:active{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+        color: black;
+        height: 100%;
+        width: 100%;
+    }
+    &__link{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed';
+    color: black;
+    height: 100%;
+    width: 100%;
+    }
+    &__img{
+        height:60px;
+        width:60px;
+        position: fixed;
+        right:5%;
+        top:80%;
+    }
+}
+.footerMecSer{
+    grid-area: footer;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    &__text{
+    Color: rgb(0, 79, 248);
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    text-align: center;
+    }
+    &__link:hover{
+        Color: rgb(70, 194, 243);
+    }
+    &__link:active{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+        color: black;
+        height: 100%;
+        width: 100%;
+    }
+    &__link{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed';
+    color: black;
+    height: 100%;
+    width: 100%;
+    }
+    &__img{
+        height:60px;
+        width:60px;
+        position: fixed;
+        right:5%;
+        top:80%;
+    }
+}
+.videoFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__vid{
+        width: 800px;
+        height: 600px;
+        pointer-events: none;
+    }
+}
+.quienesSomosImg{
+    height: 485px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    &__img{
+        height: 485px;
+        width: 728px;
+    }
+}
+.divQuienesSomos{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+    }
+}
+.divQuienesSomos1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+
+    }
+}
+.divAsociate{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+    }
+}
+.divAsociate1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    &__link{
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+        color: rgb(70, 194, 243);
+
+    }
+}
+.imgAsociate{
+    height: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &__img{
+        height: 1080px;
+        width: 1920px;
+    }
+}
+.divTrabajaImg{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+        height: 500px;
+        width: 1000px;
+    }
+}
+.divTrabaja{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 30px;
+        font-family: 'Open Sans Condensed';
+    }
+}
+.divGaleria1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 50px;
+        font-family: 'Open Sans Condensed';
+
+    }
+}
+.divServicios1{
+    @extend .divGaleria1;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 50px;
+        font-family: 'Open Sans Condensed';
+
+
+    }
+}
+.divServicios2{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    &__ul{
+        list-style: none;
+
+
+        &__li{
+            Color: rgb(70, 194, 243);
+            font-size: 50px;
+            font-family: 'Open Sans Condensed';
+        }
+        
+    }
+}
+
+.divServicios3{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__ol{
+        list-style: none;
+
+    &__li{
+        Color: rgb(70, 194, 243);
+        font-size: 50px;
+        font-family: 'Open Sans Condensed';
+
+
+    }
+    }
+
+}
+.divTrabaja1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    &__parrafo{
+        Color: rgb(70, 194, 243);
+        font-size: 50px;
+        font-family: 'Open Sans Condensed';
+
+    }
+}
+@mixin SubtituloIndex{
+    Color: rgb(0, 79, 248);
+    font-family: 'Bebas Neue';
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0;
+    animation-duration: 2s;
+    animation-name: Bienvenido;
+    animation-iteration-count: 1;
+}
+.SubtituloIndex{
+    @include SubtituloIndex
+}
+@media screen and (max-width:768px){
+    .footerMec__img{
+    height:40px;
+    width:40px;
+    position: fixed;
+    right:5%;
+    top:80%;
+    }
+    .videoFlex__vid{
+        height: 800px;
+        width: 600px;
+
+    }
+    .divTrabaja1{
+        height: 300px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .divTrabajaImg{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        &__img{
+            height: 350px;
+            width: 700px;
+        }
+    }
+    .divServicios1{
+        height: 300px;
+    }
+    .divServicios2{
+        height: 200px;
+    }
+    .divServicios3{
+        height: 400px;
+    }
+    .galeriaTamaño{
+        height: 60vh;
+        width: 60vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footerMec{
+        height: 200px;
+    }
+    .divQuienesSomos1{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .QuienesSomosImg__img{
+        height: 350px;
+        width: 550px;
+        
+    }
+    .imgAsociate__img{
+        height: 400px;
+        width: 600px;
+
+    }
+    .imgAsociate{
+        height: 600px;
+    }
+    body{
+        height: 500px;
+    }
+}
+@media screen and (max-width:480px){
+    .footerMec__img{
+        height:40px;
+        width:40px;
+        position: fixed;
+        right:5%;
+        top:80%;
+        }
+        .videoFlex__vid{
+            height: 550px;
+            width: 350px;
+    
+        }
+        .divTrabajaImg{
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+                &__img{
+                    height: 250px;
+                    width: 500px;
+                }
+            }
+        .divServicios1{
+             height: 300px;
+            }
+        .divServicios2{
+            height: 200px;
+            }
+        .divServicios3{
+            height: 200px;
+            }
+        .galeriaTamaño{
+            height: 40vh;
+            width: 40vh;
+            margin-left: auto;
+             margin-right: auto;
+            }
+            .footerMecSer{
+                display: none;
+            }
+            .divQuienesSomos1{
+                height: 200px;
+                width: 100%;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+            }
+            
+             .QuienesSomosImg__img{
+                height: 250px;
+                width: 450px;
+                }
+            .imgAsociate__img{
+                height: 200px;
+                width: 400px;
+
+            }
+            .imgAsociate{
+                height: 400px;
+            }
+}
