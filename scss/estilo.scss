@@ -1,6 +1,6 @@
 .footerMec{
     grid-area: footer;
-    height: 100%;
+    height: auto;
     width: 100%;
     bottom: 0;
     &__text{
@@ -36,7 +36,7 @@
 }
 .footerMecSer{
     grid-area: footer;
-    height: 100%;
+    height: auto;
     width: 100%;
     bottom: 0;
     &__text{
@@ -70,6 +70,15 @@
         top:80%;
     }
 }
+.imgDelHeader{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    &__img{
+        height: auto;
+    }
+}
 .videoFlex{
     display: flex;
     flex-direction: row;
@@ -95,7 +104,7 @@
     }
 }
 .divQuienesSomos{
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -161,7 +170,7 @@
     }
 }
 .divTrabajaImg{
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -174,7 +183,8 @@
 }
 .divTrabaja{
     height: 200px;
-    width: 100%;
+    width: 90%;
+    margin-left: 7%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -182,7 +192,7 @@
 
     &__parrafo{
         Color: rgb(70, 194, 243);
-        font-size: 30px;
+        font-size: 20px;
         font-family: 'Open Sans Condensed';
     }
 }
@@ -202,6 +212,7 @@
 }
 .divServicios1{
     @extend .divGaleria1;
+    height: auto;
 
     &__parrafo{
         Color: rgb(70, 194, 243);
@@ -212,7 +223,7 @@
     }
 }
 .divServicios2{
-    height: 450px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -231,7 +242,7 @@
 }
 
 .divServicios3{
-    height: 350px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -251,7 +262,7 @@
 
 }
 .divTrabaja1{
-    height: 100px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -259,14 +270,14 @@
 
     &__parrafo{
         Color: rgb(70, 194, 243);
-        font-size: 50px;
+        font-size: 20px;
         font-family: 'Open Sans Condensed';
 
     }
 }
 .parrafoIndex{
-width: 300px;
-height: 350px;
+width: 500px;
+height: auto;
 display: flex;
 text-align: center;
 align-items: center;
@@ -289,6 +300,7 @@ margin: 0 auto;
     animation-duration: 2s;
     animation-name: Bienvenido;
     animation-iteration-count: 1;
+    margin-top: 20px;
 }
 .SubtituloIndex{
     @include SubtituloIndex
@@ -302,19 +314,19 @@ margin: 0 auto;
     top:80%;
     }
     .videoFlex__vid{
-        height: 800px;
+        height: auto;
         width: 600px;
 
     }
     .divTrabaja1{
-        height: 300px;
+        height: auto;
         width: 100%;
         display: flex;
         text-align: center;
         justify-content: center;
     }
     .divTrabajaImg{
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -326,13 +338,13 @@ margin: 0 auto;
         }
     }
     .divServicios1{
-        height: 300px;
+        height: auto;
     }
     .divServicios2{
-        height: 200px;
+        height: auto;
     }
     .divServicios3{
-        height: 400px;
+        height: auto;
     }
     .galeriaTamaño{
         height: 60vh;
@@ -341,15 +353,16 @@ margin: 0 auto;
         margin-right: auto;
     }
     .footerMec{
-        height: 200px;
+        height: auto;
     }
     .divQuienesSomos1{
-        height: 200px;
+        height: auto;
         width: 100%;
         display: flex;
         text-align: center;
         justify-content: center;
     }
+
     .QuienesSomosImg__img{
         height: 350px;
         width: 550px;
@@ -363,11 +376,12 @@ margin: 0 auto;
     .imgAsociate{
         height: 600px;
     }
-    body{
-        height: 500px;
-    }
+
 }
 @media screen and (max-width:480px){
+    .imgDelHeader__img{
+        height: 100px;
+    }
     .footerMec__img{
         height:40px;
         width:40px;
@@ -376,12 +390,12 @@ margin: 0 auto;
         top:80%;
         }
         .videoFlex__vid{
-            height: 550px;
+            height: auto;
             width: 350px;
     
         }
         .divTrabajaImg{
-            height: 500px;
+            height: auto;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -393,13 +407,13 @@ margin: 0 auto;
                 }
             }
         .divServicios1{
-             height: 300px;
+             height: auto;
             }
         .divServicios2{
-            height: 200px;
+            height: auto;
             }
         .divServicios3{
-            height: 200px;
+            height: auto;
             }
         .galeriaTamaño{
             height: 40vh;
@@ -407,27 +421,29 @@ margin: 0 auto;
             margin-left: auto;
              margin-right: auto;
             }
-            .footerMecSer{
-                display: none;
+        .footerMecSer{
+            display: none;
             }
-            .divQuienesSomos1{
-                height: 200px;
-                width: 100%;
-                display: flex;
-                text-align: center;
-                justify-content: center;
+        .divQuienesSomos1{
+            height: auto;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
             }
             
-             .QuienesSomosImg__img{
-                height: 250px;
-                width: 450px;
-                }
-            .imgAsociate__img{
-                height: 200px;
-                width: 400px;
-
+        .QuienesSomosImg__img{
+            height: 250px;
+            width: 450px;
             }
-            .imgAsociate{
-                height: 400px;
+        .imgAsociate__img{
+            height: 200px;
+            width: 400px;
+            }
+        .imgAsociate{
+            height: 400px;
+            }
+        .parrafoIndex{
+            width: 300px;
             }
 }

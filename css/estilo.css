@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .footerMec {
   grid-area: footer;
-  height: 100%;
+  height: auto;
   width: 100%;
   bottom: 0; }
   .footerMec__text {
@@ -32,7 +32,7 @@
 
 .footerMecSer {
   grid-area: footer;
-  height: 100%;
+  height: auto;
   width: 100%;
   bottom: 0; }
   .footerMecSer__text {
@@ -61,6 +61,14 @@
     right: 5%;
     top: 80%; }
 
+.imgDelHeader {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; }
+  .imgDelHeader__img {
+    height: auto; }
+
 .videoFlex {
   display: flex;
   flex-direction: row;
@@ -81,7 +89,7 @@
     width: 728px; }
 
 .divQuienesSomos {
-  height: 200px;
+  height: auto;
   width: 100%;
   display: flex;
   text-align: center;
@@ -135,7 +143,7 @@
     width: 1920px; }
 
 .divTrabajaImg {
-  height: 500px;
+  height: auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -146,13 +154,14 @@
 
 .divTrabaja {
   height: 200px;
-  width: 100%;
+  width: 90%;
+  margin-left: 7%;
   display: flex;
   text-align: center;
   justify-content: center; }
   .divTrabaja__parrafo {
     Color: #46c2f3;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Open Sans Condensed'; }
 
 .divGaleria1, .divServicios1 {
@@ -166,13 +175,15 @@
     font-size: 50px;
     font-family: 'Open Sans Condensed'; }
 
-.divServicios1__parrafo {
-  Color: #46c2f3;
-  font-size: 50px;
-  font-family: 'Open Sans Condensed'; }
+.divServicios1 {
+  height: auto; }
+  .divServicios1__parrafo {
+    Color: #46c2f3;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed'; }
 
 .divServicios2 {
-  height: 450px;
+  height: auto;
   width: 100%;
   display: flex;
   text-align: center;
@@ -185,7 +196,7 @@
       font-family: 'Open Sans Condensed'; }
 
 .divServicios3 {
-  height: 350px;
+  height: auto;
   width: 100%;
   display: flex;
   text-align: center;
@@ -198,19 +209,19 @@
       font-family: 'Open Sans Condensed'; }
 
 .divTrabaja1 {
-  height: 100px;
+  height: auto;
   width: 100%;
   display: flex;
   text-align: center;
   justify-content: center; }
   .divTrabaja1__parrafo {
     Color: #46c2f3;
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Open Sans Condensed'; }
 
 .parrafoIndex {
-  width: 300px;
-  height: 350px;
+  width: 500px;
+  height: auto;
   display: flex;
   text-align: center;
   align-items: center;
@@ -229,7 +240,8 @@
   margin-bottom: 0;
   animation-duration: 2s;
   animation-name: Bienvenido;
-  animation-iteration-count: 1; }
+  animation-iteration-count: 1;
+  margin-top: 20px; }
 
 @media screen and (max-width: 768px) {
   .footerMec__img {
@@ -239,16 +251,16 @@
     right: 5%;
     top: 80%; }
   .videoFlex__vid {
-    height: 800px;
+    height: auto;
     width: 600px; }
   .divTrabaja1 {
-    height: 300px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
     justify-content: center; }
   .divTrabajaImg {
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -257,20 +269,20 @@
       height: 350px;
       width: 700px; }
   .divServicios1 {
-    height: 300px; }
+    height: auto; }
   .divServicios2 {
-    height: 200px; }
+    height: auto; }
   .divServicios3 {
-    height: 400px; }
+    height: auto; }
   .galeriaTamaño {
     height: 60vh;
     width: 60vh;
     margin-left: auto;
     margin-right: auto; }
   .footerMec {
-    height: 200px; }
+    height: auto; }
   .divQuienesSomos1 {
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -282,11 +294,11 @@
     height: 400px;
     width: 600px; }
   .imgAsociate {
-    height: 600px; }
-  body {
-    height: 500px; } }
+    height: 600px; } }
 
 @media screen and (max-width: 480px) {
+  .imgDelHeader__img {
+    height: 100px; }
   .footerMec__img {
     height: 40px;
     width: 40px;
@@ -294,10 +306,10 @@
     right: 5%;
     top: 80%; }
   .videoFlex__vid {
-    height: 550px;
+    height: auto;
     width: 350px; }
   .divTrabajaImg {
-    height: 500px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -306,11 +318,11 @@
       height: 250px;
       width: 500px; }
   .divServicios1 {
-    height: 300px; }
+    height: auto; }
   .divServicios2 {
-    height: 200px; }
+    height: auto; }
   .divServicios3 {
-    height: 200px; }
+    height: auto; }
   .galeriaTamaño {
     height: 40vh;
     width: 40vh;
@@ -319,7 +331,7 @@
   .footerMecSer {
     display: none; }
   .divQuienesSomos1 {
-    height: 200px;
+    height: auto;
     width: 100%;
     display: flex;
     text-align: center;
@@ -331,4 +343,6 @@
     height: 200px;
     width: 400px; }
   .imgAsociate {
-    height: 400px; } }
+    height: 400px; }
+  .parrafoIndex {
+    width: 300px; } }

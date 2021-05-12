@@ -33,7 +33,7 @@
     font-feature-settings: 'liga';
   }
 #header{
-    height: 100%;
+    height: auto;
     width: 100%;
     grid-area: header;
     align-items: center;
@@ -41,6 +41,7 @@
 }
 #header a img{
     max-width: 1200px;
+    height: 150px;
    }
 #header nav {
     width: 100%;
@@ -76,7 +77,7 @@
 
 
 #grillaIndex{
-    height: 2300px;
+    height: auto;
     display: grid;
     grid-template-rows: 13% 84% 3%;
     grid-template-columns: 100%;
@@ -118,7 +119,7 @@ a:active{
 
 
 #grillaGaleria{
-    height: 3000px;
+    height: auto;
     display: grid;
     grid-template-rows: 20% 3% 44% 3%;
     grid-template-columns: 100%;
@@ -258,7 +259,6 @@ hr{
     }
     #header a img{
         max-width: 668px;
-
     }
 }
 @media screen and (max-width:480px){
@@ -299,6 +299,7 @@ hr{
     }
     #header a img{
         max-width: 380px;
+        height: 90px;
         
     }
 }
